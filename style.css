@@ -1,0 +1,260 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.container{
+  
+  display: grid;
+  background-color: rgb(189, 32, 105);
+  max-width: 900px;
+  max-height: 2000px;
+  margin: auto;
+  
+}
+.cont-header{
+  position: relative;
+  display: grid;
+  grid-template-columns:1fr 2fr;
+  background-color: #94A6B2;
+  max-width: 900px;
+  max-height: 100%;
+}
+.img{
+  position: relative; 
+  overflow: hidden;
+  border-radius: 60%;
+  background-color: #353535;
+  padding: 0px; 
+  margin: 20px;
+  height: 200px;
+  width: 200px;
+  margin-left: 60px;
+  
+}
+
+.sous-header{
+  position: relative;
+  padding-left: 35px;
+  max-width: 100%;
+  height: auto;
+}
+.cont-bas{
+  position: relative;
+  display: grid;
+  grid-template-columns:1fr 2fr;
+  max-width: 1000px;
+
+}
+.cont-bas-left{
+  position: relative;
+  background-color: #353E4D;
+  width: 217px;
+  max-width: 600px;
+  padding: 30px;
+  padding-left: 0px;
+  padding-right: 400px;
+  
+  color: white;
+}
+.cont-bas-right{
+  position: relative;
+  background-color: white;
+  padding-left: 10px;
+  margin-left: -320px; 
+  margin-right: 0px;
+  
+}
+
+/*La partie header  */
+
+.title{
+  text-transform: uppercase;
+  color: #0E1E35;
+  font-weight: bold;
+}
+.ttrechercher{
+  font-weight: bold;
+}
+.intro-header{
+  
+}
+/*La partie cont-bas-left*/
+.adresse{
+  
+  margin: 0px;    
+}
+
+.adresse ul li{
+
+  list-style-type: none;
+  
+  
+} 
+.title2{
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+.comp-pp{
+  padding-left: 35px;
+}
+.comp-liste{
+  padding-left: 15px;
+  
+}
+.comp-liste ul li{
+  padding: 5px;
+}
+
+/*La partie cont-bas-right*/
+
+.title3{
+  text-transform: uppercase;
+  padding: 20px;
+}
+.section{
+  padding-left: 35px;
+}
+.section2{
+  padding-left: 35px;
+}
+.min-title{
+  font-weight: bold;
+}
+.date-title3{
+  font-weight: bold;    
+}
+body{
+  background-color: aquamarine;
+}
+
+ul{
+    padding: 20px;
+}
+#p1{
+    padding-left: 40px;
+}
+
+
+
+/*La partie right_side*/
+
+
+h1 {
+    text-transform: uppercase;
+    padding-left: 15px;
+    
+    padding-top: 20px;
+    color: #383838;
+}
+#ttp{
+    color: #000000;
+    font-weight: bold;
+    padding-left: 0px;
+    
+}
+.intro{
+    padding-left: 20px;
+    
+    
+    margin-bottom: 30px;
+    min-width: 50%;
+    max-width:100%;
+   
+}
+.section1{
+    
+    padding: 5px;
+    padding-left: 10px;
+}
+.min-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0px;
+    color: #000000;
+}
+.section2{
+    padding-left: 10px;
+}
+.min-title-form{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.date-form{
+    color: #000000;
+    font-weight: bold;
+}
+#title2{
+    text-transform: uppercase;
+    background-color: #353535;
+    border-radius: 0px 20px 20px 0px;
+    padding-left: 0px;
+    color: white;
+    padding-right: 100px;
+    padding-left: 0px;
+    padding-inline: 30px;
+    margin-bottom: 30px;
+    min-width: 300px;
+    max-width: 83%;
+}
+
+/*La partie responsive*/
+
+@media screen and (max-width:360px)
+{
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px;
+        padding: 0px;
+    }
+  .cont-bas {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+    max-width: 1000px;
+}
+.cont-bas-right {
+  position: relative;
+  background-color: white;
+  padding-left: p;
+  padding-right: 40%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.sous-header {
+  position: relative;
+  padding-left: 35px;
+  padding-right: 30px;
+  max-width: 70%;
+  height: auto;
+}
+.cont-header {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(1,2fr);
+  background-color: #94A6B2;
+  max-width: 1000px;
+  max-height: 100%;
+}
+.cont-bas-left {
+  position: relative;
+  background-color: #353E4D;
+  width: 50%;
+  max-width: 80%;
+  padding: 0px;
+  padding-left: 0px;
+  padding-right: 250px;
+  color: white;
+}
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 1000px)
+{
+    .container{
+        display: grid;
+        grid-template-columns:3 1fr 2fr;
+        padding: 0px;
+    }
+  }    
